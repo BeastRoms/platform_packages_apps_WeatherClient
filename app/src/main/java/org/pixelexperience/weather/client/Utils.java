@@ -26,7 +26,7 @@ public class Utils {
         return networkInfo != null && networkInfo.isConnected();
     }
 
-    public static String getSystemProperty(String key, String defaultValue) {
+    /*public static String getSystemProperty(String key, String defaultValue) {
         String value;
 
         try {
@@ -60,7 +60,7 @@ public class Utils {
             return false;
         }
         return true;
-    }
+    }*/
 
     public static class GzipRequestInterceptor implements Interceptor {
         @Override
